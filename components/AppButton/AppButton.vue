@@ -10,16 +10,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 .btn {
   height: 30px;
   padding: 5px;
   border: 1px solid white;
-}
 
-.btn--yellow {
-  background: yellow;
+  &--yellow {
+    background: yellow;
+  }
 }
 
 </style>
