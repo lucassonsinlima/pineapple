@@ -9,7 +9,7 @@
 </template>
 
 <script >
-import AppButton from "@lhuscaslima/app-button/AppButton.vue"
+import AppButton from "@lhuscaslima/reusable-components/AppButton/AppButton.vue"
 import RvloButton from '../RvloButton/RvloButton.vue'
 
 export default {
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/themes/theme';
-@import '../../assets/themes/tokens';
+@import '../assets/themes/theme';
+@import '../assets/themes/tokens';
 
 </style>

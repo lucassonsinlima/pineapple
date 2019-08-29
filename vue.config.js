@@ -4,7 +4,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        data: '@import "src/assets/themes/tokens.scss";'
+        data: '@import "src/components/assets/themes/tokens.scss";'
       },
     }
   }
