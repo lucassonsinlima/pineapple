@@ -22,7 +22,7 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "@lhuscaslima/app-button": "^0.1.0",
+    "@lhuscaslima/reusable-components": "0.0.1",
     "@vue/cli-service": "^3.11.0",
     "animate.css": "^3.7.0",
     "vue": "^2.6.10"
