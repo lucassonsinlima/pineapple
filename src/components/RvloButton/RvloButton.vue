@@ -86,8 +86,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/themes/theme';
-@import '../../assets/themes/tokens';
+@import '../assets/themes/theme';
+@import '../assets/themes/tokens';
 
 .button {
   align-items: center;
