@@ -1,0 +1,17 @@
+$grid-columns: 12;
+
+@mixin click-grid-column-class($prefix) {
+  $prefix-class: unquote($prefix);
+
+  @for $i from 1 through $grid-columns {
+    #{$prefix-class}-#{$i} {
+      grid-template-columns: repeat(#{$i}, 1fr);
+    }
+  }
+}
+
+@mixin click-grid-breakpoint($prefix ,$point) {
+  @include breakpoint($point) {
+    @include click-grid-column-class('#{$prefix}--col-#{$point}');
+  }
+}

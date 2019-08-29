@@ -1,0 +1,33 @@
+@mixin badge {
+  @extend %button2;
+
+  border: 1px solid currentColor;
+  border-radius: 32px;
+  color: $gray-darker;
+  display: inline-block;
+  padding: 0 3*$base;
+}
+
+%ribbon-revelo-plus {
+  @include badge;
+
+  color: $purple;
+}
+
+%ribbon-new {
+  @include badge;
+
+  color: $red-lighter;
+}
+
+%ribbon-early-access {
+  @include badge;
+
+  color: $yellow;
+}
+
+%ribbon-not-evaluated {
+  @include badge;
+
+  color: $yellow;
+}

@@ -1,0 +1,12 @@
+@mixin layer($color, $opacity-percentage) {
+  box-shadow: inset 0 0 0 100px rgba($color, $opacity-percentage);
+}
+
+body {
+  background-color: $gray-lightest;
+}
+
+%active-focus {
+  border: 1px solid $gray-lighter;
+  outline: none;
+}

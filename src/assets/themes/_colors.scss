@@ -1,0 +1,55 @@
+/* stylelint-disable color-named */
+/* stylelint-disable color-no-hex */
+
+$white: #fff;
+$gray-lightest: #f5f7fb;
+$gray-lighter: #b0c4da;
+$gray: #72869c;
+$gray-darker: #54687e;
+$gray-darkest: #273a50;
+$black: #141d28;
+
+$blue-lightest: #b7f2ff;
+$blue-lighter: #89eaff;
+$blue: #39bdda;
+$blue-darker: #0d8fac;
+$blue-darkest: #025c70;
+
+$green-lightest: #b9ffb8;
+$green-lighter: #8aff88;
+$green: #68dd66;
+$green-darker: #269b23;
+$green-darkest: #027002;
+
+$red-lightest: #febebf;
+$red-lighter: #ff6568;
+$red: #ef474a;
+$red-darker: #cf262a;
+$red-darkest: #ac0307;
+
+$purple-lightest: #e9ddff;
+$purple-lighter: #c09dff;
+$purple: #9c64ff;
+$purple-darker: #5c24bf;
+$purple-darkest: #440da7;
+
+$yellow-lightest: #ffdeb8;
+$yellow-lighter: #ffc788;
+$yellow: #ffa23a;
+$yellow-darker: #b15f01;
+$yellow-darkest: #713d02;
+
+/* transparent colors */
+
+$black-0: rgba($black, 0);
+$white-0: rgba($white, 0);
+$white-7: rgba($white, 0.7);
+$gray-darkest-8: rgba($gray-darkest, 0.08);
+$gray-darkest-95: rgba($gray-darkest, 0.95);
+$red-2: rgba($red, 0.2);
+
+/* Social Media colors */
+
+$whatsapp-green: #25d266;
+$facebook-blue: #3455a4;
+$messenger-blue: #0084ff;

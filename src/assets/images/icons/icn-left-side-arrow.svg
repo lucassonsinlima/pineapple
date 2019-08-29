@@ -1,0 +1,1 @@
+<svg width="10" height="5" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0l5 5 5-5z"/></defs><g fill="none" fill-rule="evenodd"><path d="M-7-10h24v24H-7z"/><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)" fill="#A9B0B9"><path d="M-7-10h24v24H-7z"/></g></g></svg>

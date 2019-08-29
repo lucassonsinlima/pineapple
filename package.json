@@ -1,7 +1,9 @@
 {
   "scripts": {
     "storybook": "start-storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -16,10 +18,13 @@
     "style-loader": "^1.0.0",
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.39.2"
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
     "@lhuscaslima/app-button": "^0.1.0",
+    "@vue/cli-service": "^3.11.0",
+    "animate.css": "^3.7.0",
     "vue": "^2.6.10"
   },
   "name": "pineapple"

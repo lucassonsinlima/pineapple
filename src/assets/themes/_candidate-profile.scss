@@ -1,0 +1,8 @@
+%candidate-profile-section {
+  &:not(:first-of-type) {
+    @include margin(top, 6);
+
+    border-top: 1px solid $gray-lighter;
+    padding-top: $base*6;
+  }
+}

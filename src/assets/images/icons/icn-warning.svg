@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Atom/icon/form-trail/warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.9999994,0 C4.47999974,0 0,4.47999974 0,9.9999994 C0,15.5199995 4.47999974,19.9999988 9.9999994,19.9999988 C15.5199995,19.9999988 19.9999988,15.5199995 19.9999988,9.9999994 C19.9999988,4.47999927 15.5199995,0 9.9999994,0 Z M10.9999993,14.9999991 L8.99999946,14.9999991 L8.99999946,12.9999992 L10.9999993,12.9999992 L10.9999993,14.9999991 Z M10.9999993,10.9999993 L8.99999946,10.9999993 L8.99999946,4.9999997 L10.9999993,4.9999997 L10.9999993,10.9999993 Z" id="path-1"></path>
+    </defs>
+    <g id="Atom/icon/form-trail/warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="safe-area" x="0" y="0" width="24" height="24"></rect>
+        <g id="icon" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Artboard-Copy"></g>
+            <g id="Token/color/ui/warning" mask="url(#mask-2)" fill="#F5A623">
+                <g transform="translate(-2.000000, -2.000000)" id="Color">
+                    <rect x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

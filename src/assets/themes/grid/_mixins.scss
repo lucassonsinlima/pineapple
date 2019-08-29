@@ -1,0 +1,26 @@
+@mixin grid-column-size-class($prefix, $grid-columns) {
+  $prefix-class: unquote($prefix);
+
+  @for $i from 1 through $grid-columns {
+    #{$prefix-class}-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+@mixin grid-column-start-class($prefix, $grid-columns) {
+  $prefix-class: unquote($prefix);
+
+  @for $i from 1 through $grid-columns {
+    #{$prefix-class}-start-#{$i} {
+      grid-column-start: #{$i};
+    }
+  }
+}
+
+@mixin grid-column-breakpoint($prefix, $point, $grid-columns) {
+  @include breakpoint($point) {
+    @include grid-column-size-class('#{$prefix}--#{$point}', $grid-columns);
+    @include grid-column-start-class('#{$prefix}--#{$point}', $grid-columns);
+  }
+}

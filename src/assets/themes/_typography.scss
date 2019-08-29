@@ -1,0 +1,165 @@
+%antenna {
+  font-family: Antenna, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+%open-sans {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+%base-typography {
+  @extend %antenna;
+
+  color: $gray-darkest;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+%regular {
+  font-weight: 400;
+}
+
+%medium {
+  font-weight: 500;
+}
+
+%bold {
+  font-weight: 700;
+}
+
+%h1 {
+  @extend %medium;
+
+  font-size: 3.625 rem;
+  letter-spacing: -0.91px;
+  line-height: 4.75rem;
+}
+
+%h2 {
+  @extend %medium;
+
+  font-size: 2.8125rem;
+  letter-spacing: -0.38px;
+  line-height: 3.6875rem;
+}
+
+%h3 {
+  @extend %medium;
+
+  font-size: 2.125rem;
+  letter-spacing: 0;
+  line-height: 2.75rem;
+}
+
+%h4 {
+  @extend %medium;
+
+  font-size: 1.375rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8125rem;
+}
+
+%h5 {
+  @extend %regular;
+
+  font-size: 1.375rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8125rem;
+}
+
+%h6 {
+  @extend %regular;
+
+  font-size: 1.125rem;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
+
+%subtitle1 {
+  @extend %regular;
+
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  line-height: 1.5rem;
+}
+
+%subtitle2 {
+  @extend %medium;
+
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
+
+%body-text1 {
+  @extend %open-sans;
+  @extend %regular;
+
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+  line-height: 1.375rem;
+}
+
+%body-text2 {
+  @extend %open-sans;
+  @extend %regular;
+
+  font-size: 0.875rem;
+  letter-spacing: -0.1px;
+  line-height: 1.25rem;
+}
+
+%caption {
+  @extend %open-sans;
+  @extend %regular;
+
+  font-size: 0.75rem;
+  letter-spacing: -0.1px;
+  line-height: 1rem;
+}
+
+%caption-bold {
+  @extend %open-sans;
+  @extend %bold;
+
+  font-size: 0.625rem;
+  letter-spacing: -0.5px;
+  line-height: 0.75rem;
+}
+
+%button1 {
+  @extend %open-sans;
+  @extend %bold;
+
+  font-size: 0.875rem;
+  letter-spacing: -0.7px;
+  line-height: 1rem;
+}
+
+%button2 {
+  @extend %open-sans;
+  @extend %bold;
+
+  font-size: 0.75rem;
+  letter-spacing: -0.1px;
+  line-height: 1rem;
+}
+
+%link-item,
+%link-item:hover {
+  @extend %body-text2;
+
+  color: $gray;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+@mixin hover-link($color, $percentage) {
+  color: rgba($color, $percentage);
+}
+
+@mixin truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

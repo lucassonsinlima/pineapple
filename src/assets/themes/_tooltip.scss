@@ -1,0 +1,112 @@
+.tooltip {
+  $tooltip-gutter: 5px + $base * 2;
+
+  @extend %base-typography;
+
+  display: block !important;
+  z-index: 10000;
+
+  .tooltip-inner {
+    @extend %body-text2;
+
+    background: $blue-lightest;
+    border-radius: 1px;
+    color: $gray-darker;
+    padding: $base $base*2;
+  }
+
+  .tooltip-arrow {
+    border-color: $blue-lightest;
+    border-style: solid;
+    height: 0;
+    margin: 5px;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: $tooltip-gutter;
+
+    .tooltip-arrow {
+      border-bottom-color: transparent !important;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-width: 5px 5px 0 5px;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: $tooltip-gutter;
+
+    .tooltip-arrow {
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      border-width: 0 5px 5px 5px;
+      left: calc(50% - 5px);
+      margin-bottom: 0;
+      margin-top: 0;
+      top: -5px;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: $tooltip-gutter;
+
+    .tooltip-arrow {
+      border-bottom-color: transparent !important;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-width: 5px 5px 5px 0;
+      left: -5px;
+      margin-left: 0;
+      margin-right: 0;
+      top: calc(50% - 5px);
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: $tooltip-gutter;
+
+    .tooltip-arrow {
+      border-bottom-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      border-width: 5px 0 5px 5px;
+      margin-left: 0;
+      margin-right: 0;
+      right: -5px;
+      top: calc(50% - 5px);
+    }
+  }
+
+  &.popover {
+    .popover-inner {
+      background: $blue-lightest;
+      border-radius: 1px;
+      color: inherit;
+      padding: 24px;
+    }
+
+    .popover-arrow {
+      border-color: $blue-lightest;
+    }
+  }
+
+  &[aria-hidden='true'] {
+    opacity: 0;
+    transition: opacity 0.15s, visibility 0.15s;
+    visibility: hidden;
+  }
+
+  &[aria-hidden='false'] {
+    opacity: 1;
+    transition: opacity 0.15s;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Atom/icon/form-trail/success</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.9999994,0 C4.47999974,0 0,4.47999974 0,9.9999994 C0,15.5199995 4.47999974,19.9999988 9.9999994,19.9999988 C15.5199995,19.9999988 19.9999988,15.5199995 19.9999988,9.9999994 C19.9999988,4.47999927 15.5199995,0 9.9999994,0 Z M7.99999952,14.9999991 L2.99999982,9.9999994 L4.40999958,8.58999958 L7.99999952,12.1699993 L15.5899992,4.57999965 L16.999999,5.99999964 L7.99999952,14.9999991 Z" id="path-1"></path>
+    </defs>
+    <g id="Atom/icon/form-trail/success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="safe-area" x="0" y="0" width="24" height="24"></rect>
+        <g id="icon" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Artboard"></g>
+            <g id="Token/color/ui/success" mask="url(#mask-2)" fill="#39BDDA">
+                <g transform="translate(-2.000000, -2.000000)" id="Color">
+                    <rect x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
