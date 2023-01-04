@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@lhuscaslima/reusable-components": "0.0.1",
-    "@vue/cli-service": "^3.11.0",
+    "@vue/cli-service": "^5.0.8",
     "animate.css": "^3.7.0",
     "vue": "^2.6.10"
   },
